@@ -5,9 +5,10 @@ interface MediaBlockProps {
 }
 
 export default function MediaBlock({ block }: MediaBlockProps) {
-  if (!block.file?.data) return null;
+  if (!block.file?.url) return null;
 
-  const { url, alternativeText, width, height } = block.file.data.attributes;
+  const  url  = block.file.url;
+    const { alternativeText, width, height } = block.file;
 
   return (
     <div className="content-block media-block animate-fade-in">
