@@ -27,7 +27,9 @@ const Header: React.FC = () => {
         <nav className="desktop-nav">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
+          <Link href="/products">Products</Link>
           <Link href="/articles">Articles</Link>
+
         </nav>
 
         {/* Mobile Hamburger Button */}
@@ -52,6 +54,9 @@ const Header: React.FC = () => {
           </Link>
           <Link href="/articles" onClick={closeMenu}>
             Articles
+          </Link>
+          <Link href="/products" onClick={closeMenu}>
+            Products
           </Link>
         </nav>
       </div>
