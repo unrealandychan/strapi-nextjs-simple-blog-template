@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
         <p className="hero-subtitle">
           A modern blogging platform that combines beautiful design with outstanding performance.
-          Create, share, and inspire with Eddie's Blog.
+          Create, share, and inspire with Apple's Style.
         </p>
         <div className="cta-buttons">
           <Link href="/articles" className="button button-primary">
